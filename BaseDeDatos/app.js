@@ -8,7 +8,7 @@ const port = 3000;
 
 app.use(bodyParser.json());
 app.use(cors());
-
+//
 
 mongoose.connect('mongodb://localhost:27017/mapas', {
   useNewUrlParser: true,
